@@ -1,0 +1,14 @@
+{
+    "name": "ShareThis",
+    "alias": "sharethis",
+    "description": "ShareThis Plugin",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\ShareThis\\Providers\\ShareThisServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "version": "1.0"
+}

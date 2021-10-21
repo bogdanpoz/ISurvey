@@ -1,0 +1,1 @@
+INSERT INTO `plans` VALUES (1,'Free','10 surveys\r\n50 questions per survey\r\nCollect 100 responses per survey\r\nCustomize the survey color, text, etc\r\nAnalyze the survey responses\r\nPhone support and 24/7 email support',NULL,'free',0.00,'yearly','2021-05-25 02:40:11','2021-05-25 02:40:11');

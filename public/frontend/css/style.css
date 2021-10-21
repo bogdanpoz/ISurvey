@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800");
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #393e46;
+    background-color: #f8f8f8;
+    overflow-x: hidden;
+}
+
+.text-primary {
+    color: #00adb5 !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #00adb5;
+    border-color: #00adb5;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.btn-primary:hover {
+    color: #00adb5;
+    background-color: #fff;
+    border-color: #00adb5;
+    background: #fff;
+}
+
+.btn-primary:active {
+    color: #fff !important;
+    background-color: #00adb5 !important;
+    border-color: #00adb5 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.submit-btn {
+    border-color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.page-wrap {
+    position: relative;
+    min-height: 100vh;
+}
+
+.survey {
+    margin-top: 8rem;
+    margin-bottom: 7rem;
+}
+
+main {
+    min-height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.welcome h1 {
+    font-size: 2.3rem;
+}
+
+.welcome h5 {
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.welcome .start {
+    padding: 0.5rem 3rem;
+    font-size: 18px;
+}
+
+footer {
+    width: 100%;
+    padding: 2rem 1rem;
+}
+
+footer h6 {
+    font-size: 0.9rem;
+}
+
+footer img {
+    width: 120px;
+    margin-bottom: 8px;
+}
+
+.survey-1 h5 {
+    color: #393e46;
+    font-size: 18px;
+}
+
+.survey-1 label {
+    color: #393e46;
+    width: 100%;
+    cursor: pointer;
+}
+
+.survey-1 .select-1 {
+    padding: 0.53rem 0;
+    padding-left: 5px;
+}
+
+.survey-1 .select-1:hover {
+    background: #aad8d3;
+    border-radius: 3px;
+}
+
+.invalid-feedback {
+    display: block;
+}
+
+.iti__flag {
+    background-image: url("../img/flags.png");
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .iti__flag {
+        background-image: url("../img/flags@2x.png");
+    }
+}
+
+form .likert {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+form .likert:last-of-type {
+    border-bottom: 0;
+}
+
+form .likert:before {
+    content: "";
+    position: relative;
+    top: 11px;
+    left: 9.5%;
+    display: block;
+    background-color: #00adb5;
+    height: 4px;
+    width: 78%;
+}
+
+form .likert li {
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+    vertical-align: top;
+}
+
+form .likert li input[type="radio"] {
+    display: block;
+    position: relative;
+    top: 2px;
+    left: 50%;
+    margin-left: -6px;
+    -webkit-transform: scale(1.7);
+    transform: scale(1.7);
+}
+
+form .likert li label {
+    width: 100%;
+    margin-top: 6px;
+}
+
+@media (max-width: 575px) {
+    form .likert li label {
+        font-size: 14px;
+    }
+}
+
+.rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #00adb5;
+    max-width: 300px;
+}
+
+.rating .btn {
+    width: 100%;
+    border-right: 1px solid #00adb5;
+    border-radius: 0;
+}
+
+.rating .btn:last-child {
+    border-right: none;
+}
+
+.rating .active {
+    outline: auto;
+}
+
+.survey-img {
+  width: 400px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+.slider-output{
+    display: block; 
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+.quest-ranger{
+    max-width: 50%; 
+    margin-top: 30px;
+}
+.rangeslider--horizontal {
+    height: 15px !important;
+    width: 100% !important;
+}
+.rangeslider__handle {
+    width: 35px !important;
+    height: 35px !important;
+} 
+/*# sourceMappingURL=style.css.map */

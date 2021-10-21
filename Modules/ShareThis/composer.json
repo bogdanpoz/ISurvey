@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/sharethis",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\ShareThis\\Providers\\ShareThisServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ShareThis\\": ""
+        }
+    }
+}

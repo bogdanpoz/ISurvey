@@ -1,0 +1,1 @@
+INSERT INTO `plan_options` VALUES (1,1,'survey_count',10,'2021-05-25 02:40:11','2021-05-25 02:40:11'),(2,1,'question_count_per_survey',50,'2021-05-25 02:40:11','2021-05-25 02:40:11'),(3,1,'response_count_per_survey',100,'2021-05-25 02:40:11','2021-05-25 02:40:11');
